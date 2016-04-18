@@ -16,21 +16,7 @@
 var Webdriver = require('..');
 
 describe('lib/index.js', function() {
-  describe('constructor', function() {
-    var webdriver = new Webdriver();
-
-    it('should has property options', function() {
-      webdriver.should.have.ownProperty('options');
-    });
-
-    it('should has property pid', function(done) {
-      webdriver.start(function() {
-        webdriver.restart(function() {
-          webdriver.options.should.have.ownProperty('pid');
-          webdriver.stop();
-          done();
-        });
-      });
-    });
+  it('should be ok', function() {
+    Webdriver.should.be.ok;
   });
 });

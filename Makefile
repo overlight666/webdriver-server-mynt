@@ -6,18 +6,21 @@ clean:
 	@rm -rf ./node_modules
 install:
 	@npm install
-pull:
-	@git pull origin ${current_version}
-push:
-	@git push origin ${current_version}
-publish:
-	@npm publish
-test:
+test: install
 	@node --harmony \
 		${npm_bin}/istanbul cover ${npm_bin}/_mocha \
 		-- \
 		--timeout 10000 \
 		--require co-mocha
+travis: install
+	@NODE_ENV=test $(BIN) $(FLAGS) \
+		./node_modules/.bin/istanbul cover \
+		./node_modules/.bin/_mocha \
+		--report lcovonly \
+		-- -u exports \
+		$(REQUIRED) \
+		$(TESTS) \
+		--bail
 jshint:
 	@${npm_bin}/jshint .
 .PHONY: test
