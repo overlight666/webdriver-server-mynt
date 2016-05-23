@@ -1,6 +1,6 @@
 {
   "name": "webdriver-server",
-  "version": "1.0.41",
+  "version": "1.0.42",
   "description": "webdriver server",
   "keywords": [
     "webdriver",
@@ -23,7 +23,6 @@
     "koa": "~1.1.2",
     "koa-bodyparser": "~2.0.1",
     "koa-router": "~5.4.0",
-    "node-installer": "~1.0.0",
     "sync-request": "~3.0.0",
     "temp": "~0.8.3",
     "webdriver-dfn-error-code": "~1.0.0",
