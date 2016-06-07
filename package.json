@@ -11,7 +11,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/xudafeng/webdriver-server.git"
+    "url": "git://github.com/macacajs/webdriver-server.git"
   },
   "dependencies": {
     "adm-zip": "~0.4.7",
@@ -44,9 +44,8 @@
     "jshint"
   ],
   "engines": {
-    "node": ">= 1.5.x"
+    "node": ">= 4.2.1"
   },
-  "author": "xudafeng",
-  "homepage": "https://github.com/xudafeng/webdriver-server",
+  "homepage": "https://github.com/macacajs/webdriver-server",
   "license": "MIT"
 }
