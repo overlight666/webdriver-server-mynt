@@ -1,6 +1,6 @@
 {
   "name": "webdriver-server",
-  "version": "1.0.62",
+  "version": "1.0.65",
   "description": "webdriver server",
   "keywords": [
     "webdriver",
@@ -30,11 +30,11 @@
     "xutil": "~1.0.0"
   },
   "devDependencies": {
-    "mocha": "2.2.4",
     "co-mocha": "*",
-    "istanbul": "*",
-    "should": "*",
-    "jshint": "*"
+    "istanbul": "^0.4.5",
+    "jshint": "*",
+    "mocha": "2.2.4",
+    "should": "*"
   },
   "scripts": {
     "test": "make test",
