@@ -1,6 +1,6 @@
 {
   "name": "webdriver-server",
-  "version": "1.0.76",
+  "version": "1.0.77",
   "description": "webdriver server",
   "keywords": [
     "webdriver",
@@ -21,6 +21,7 @@
     "detect-port": "~0.1.4",
     "koa": "~1.1.2",
     "koa-bodyparser": "~2.0.1",
+    "koa-cors": "^0.0.16",
     "koa-router": "~5.4.0",
     "sync-request": "~3.0.0",
     "temp": "~0.8.3",
