@@ -2,8 +2,6 @@ current_version = $$(git branch 2>/dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\
 npm_bin= $$(npm bin)
 
 all: test
-clean:
-	@rm -rf ./node_modules
 install:
 	@npm install
 test: install

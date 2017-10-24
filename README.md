@@ -15,7 +15,7 @@
 
 ## Installment
 
-```shell
+``` bash
 $ npm i webdriver-server --save
 ```
 
