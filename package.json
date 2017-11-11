@@ -1,6 +1,6 @@
 {
   "name": "webdriver-server",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "webdriver server",
   "keywords": [
     "webdriver",
@@ -34,7 +34,7 @@
     "istanbul": "^0.4.5",
     "jshint": "*",
     "mocha": "*",
-    "pre-commit": "^1.2.2",
+    "pre-commit": "*",
     "should": "*"
   },
   "scripts": {
@@ -44,6 +44,5 @@
   "precommit": [
     "jshint"
   ],
-  "homepage": "https://github.com/macacajs/webdriver-server",
   "license": "MIT"
 }
