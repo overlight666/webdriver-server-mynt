@@ -1,9 +1,10 @@
 'use strict';
 
-var Webdriver = require('..');
+const Webdriver = require('..');
+const assert = require('assert');
 
 describe('lib/index.js', function() {
   it('should be ok', function() {
-    Webdriver.should.be.ok();
+    assert.ok(Webdriver);
   });
 });
