@@ -32,6 +32,7 @@
   },
   "devDependencies": {
     "co-mocha": "*",
+    "git-contributor": "^1.0.3",
     "istanbul": "^0.4.5",
     "jshint": "*",
     "mocha": "*",
@@ -40,7 +41,8 @@
   "scripts": {
     "test": "istanbul cover `npm bin`/_mocha",
     "lint": "jshint .",
-    "ci": "npm run test && npm run lint"
+    "ci": "npm run test && npm run lint",
+    "contributor": "git-contributor"
   },
   "precommit": [
     "lint"
