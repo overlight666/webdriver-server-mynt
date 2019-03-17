@@ -13,12 +13,6 @@
 
 > webdriver server
 
-## Installment
-
-``` bash
-$ npm i webdriver-server --save
-```
-
 <!-- GITCONTRIBUTOR_START -->
 
 ## Contributors
@@ -27,9 +21,15 @@ $ npm i webdriver-server --save
 | :---: | :---: | :---: | :---: | :---: |
 
 
-This project follows the git-contributor [spec](https://github.com/xudafeng/git-contributor), auto upated at `Tue Jul 31 2018 15:00:50 GMT+0800`.
+This project follows the git-contributor [spec](https://github.com/xudafeng/git-contributor), auto updated at `Tue Jul 31 2018 15:00:50 GMT+0800`.
 
 <!-- GITCONTRIBUTOR_END -->
+
+## Installment
+
+``` bash
+$ npm i webdriver-server --save
+```
 
 ## License
 
