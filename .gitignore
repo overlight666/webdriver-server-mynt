@@ -1,5 +1,7 @@
 node_modules
 coverage
+logs
 .nyc_output
 *.sw*
 *.un~
+.idea
