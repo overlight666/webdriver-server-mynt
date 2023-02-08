@@ -1,6 +1,6 @@
 {
   "name": "webdriver-server-mynt",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "[![NPM version][npm-image]][npm-url] [![CI][CI-image]][CI-url] [![npm download][download-image]][download-url]",
   "main": "index.js",
   "files": [
@@ -28,7 +28,7 @@
     "koa-bodyparser": "~2.0.1",
     "koa-cors": "^0.0.16",
     "koa-router": "~5.4.0",
-    "macaca-cli": "*",
+    "macaca-cli-mynt": "*",
     "progress": "~2.0.0",
     "temp": "~0.8.3",
     "webdriver-dfn-error-code": "~1.0.0",
